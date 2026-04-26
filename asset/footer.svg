@@ -1,0 +1,30 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="fline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0"/>
+      <stop offset="20%" style="stop-color:#58a6ff"/>
+      <stop offset="40%" style="stop-color:#bc8cff"/>
+      <stop offset="60%" style="stop-color:#7ee787"/>
+      <stop offset="80%" style="stop-color:#ff7b72"/>
+      <stop offset="100%" style="stop-color:#ff7b72;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes waveMove{0%{d:path('M0,40 Q150,20 300,40 T600,40 T900,40 T1200,40')}50%{d:path('M0,50 Q150,70 300,50 T600,50 T900,50 T1200,50')}100%{d:path('M0,40 Q150,20 300,40 T600,40 T900,40 T1200,40')}}
+    @keyframes heartBeat{0%,100%{transform:scale(1)}10%{transform:scale(1.15)}20%{transform:scale(1)}30%{transform:scale(1.1)}40%{transform:scale(1)}}
+    .fwave{animation:waveMove 6s ease-in-out infinite}
+    .heart{animation:heartBeat 2s ease-in-out infinite;transform-origin:600px 80px}
+  </style>
+  <rect width="1200" height="120" fill="url(#fbg)"/>
+  <path class="fwave" d="M0,40 Q150,20 300,40 T600,40 T900,40 T1200,40" fill="none" stroke="url(#fline)" stroke-width="2" opacity="0.5"/>
+  <path class="fwave" d="M0,50 Q150,70 300,50 T600,50 T900,50 T1200,50" fill="none" stroke="url(#fline)" stroke-width="1" opacity="0.3" style="animation-delay:1s"/>
+  <g class="heart">
+    <text x="600" y="85" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="14" fill="#8b949e" letter-spacing="3">
+      CRAFTED WITH ❤️ BY MOHIT DWIVEDI
+    </text>
+  </g>
+</svg>
