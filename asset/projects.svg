@@ -37,7 +37,6 @@
       @keyframes floatCard1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
       @keyframes floatCard2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
       @keyframes floatCard3 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
-      @keyframes progressAnim { 0%{width:0} 100%{opacity:1} }
       @keyframes pulseDot { 0%,100%{opacity:0.4; r:3} 50%{opacity:1; r:5} }
 
       .card1 { animation: floatCard1 5s ease-in-out infinite; transform-origin: center; }
@@ -60,7 +59,7 @@
   <line x1="500" y1="60" x2="700" y2="60" stroke="#79c0ff" stroke-width="2" filter="url(#glow)"/>
 
   <!-- Project 1: World Need -->
-  <g transform="translate(60, 110)">
+  <svg x="60" y="110" width="320" height="200" overflow="visible">
     <g class="card1">
       <rect width="320" height="180" rx="12" fill="url(#glass)" stroke="#58a6ff" stroke-width="1.5" stroke-opacity="0.3"/>
       <!-- Top Glow Line -->
@@ -69,7 +68,6 @@
       <circle class="pdot" cx="25" cy="30" r="4" fill="#58a6ff" filter="url(#glow)"/>
       <text x="45" y="36" class="proj-title">World Need</text>
       
-      <!-- Description with manual text wrapping via tspan -->
       <text class="proj-desc" x="25" y="70">A social platform connecting</text>
       <text class="proj-desc" x="25" y="90">people with real-world</text>
       <text class="proj-desc" x="25" y="110">problems to developers.</text>
@@ -82,13 +80,12 @@
       </rect>
       <text x="295" y="145" class="proj-tag">75%</text>
     </g>
-  </g>
+  </svg>
 
   <!-- Project 2: GitHub Auto-Pilot -->
-  <g transform="translate(440, 110)">
+  <svg x="440" y="110" width="320" height="200" overflow="visible">
     <g class="card2">
       <rect width="320" height="180" rx="12" fill="url(#glass)" stroke="#bc8cff" stroke-width="1.5" stroke-opacity="0.3"/>
-      <!-- Top Glow Line -->
       <path d="M12,0 L308,0" stroke="url(#glowPurple)" stroke-width="4" filter="url(#glow)"/>
       
       <circle class="pdot" cx="25" cy="30" r="4" fill="#bc8cff" filter="url(#glow)"/>
@@ -106,13 +103,12 @@
       </rect>
       <text x="295" y="145" class="proj-tag">90%</text>
     </g>
-  </g>
+  </svg>
 
   <!-- Project 3: AI Nexus -->
-  <g transform="translate(820, 110)">
+  <svg x="820" y="110" width="320" height="200" overflow="visible">
     <g class="card3">
       <rect width="320" height="180" rx="12" fill="url(#glass)" stroke="#ff7b72" stroke-width="1.5" stroke-opacity="0.3"/>
-      <!-- Top Glow Line -->
       <path d="M12,0 L308,0" stroke="url(#glowRed)" stroke-width="4" filter="url(#glow)"/>
       
       <circle class="pdot" cx="25" cy="30" r="4" fill="#ff7b72" filter="url(#glow)"/>
@@ -130,6 +126,6 @@
       </rect>
       <text x="295" y="145" class="proj-tag">40%</text>
     </g>
-  </g>
+  </svg>
 
 </svg>

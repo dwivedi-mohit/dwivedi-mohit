@@ -48,7 +48,7 @@
   <rect width="1200" height="500" fill="url(#bg)"/>
 
   <!-- Left Side: Terminal Window -->
-  <g transform="translate(50, 40)">
+  <svg x="50" y="40" width="520" height="420" overflow="visible">
     <g class="card1">
       <!-- Glass Panel -->
       <rect width="520" height="420" rx="15" fill="url(#glass)" stroke="url(#glassBorder)" stroke-width="1.5"/>
@@ -61,7 +61,7 @@
       <text x="260" y="25" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="13" fill="#8b949e">mohit@nexus: ~/about-me</text>
 
       <!-- Terminal Content -->
-      <g transform="translate(25, 70)">
+      <svg x="25" y="70" overflow="visible">
         <text class="terminal-text" y="0"><tspan class="comment"># Initialize profile protocol</tspan></text>
         
         <text class="terminal-text" y="30"><tspan class="keyword">const</tspan> <tspan class="variable">developer</tspan> = {</text>
@@ -79,12 +79,12 @@
 
         <text class="terminal-text" y="340"><tspan class="variable">console</tspan>.<tspan class="keyword">log</tspan>(<tspan class="string">"Automating the un-automatable..."</tspan>);</text>
         <text class="terminal-text" y="370"><tspan class="keyword">root@nexus</tspan> <tspan class="variable">~ $</tspan> <tspan class="cursor">█</tspan></text>
-      </g>
+      </svg>
     </g>
-  </g>
+  </svg>
 
   <!-- Right Side: Tech Stack Floating Grid -->
-  <g transform="translate(630, 40)">
+  <svg x="630" y="40" width="520" height="420" overflow="visible">
     <g class="card2">
       
       <!-- Title -->
@@ -92,7 +92,7 @@
       <line x1="150" y1="45" x2="350" y2="45" stroke="#bc8cff" stroke-width="2" filter="url(#glow)"/>
 
       <!-- Frontend Box -->
-      <g transform="translate(0, 70)">
+      <svg x="0" y="70" overflow="visible">
         <rect width="230" height="150" rx="10" fill="url(#glass)" stroke="#58a6ff" stroke-width="1" stroke-opacity="0.5"/>
         <circle class="glow-dot" cx="20" cy="25" r="4" fill="#58a6ff" filter="url(#glow)"/>
         <text class="tech-title" x="35" y="30">Frontend</text>
@@ -103,10 +103,10 @@
         <text class="tech-item" x="120" y="100">🟨 JavaScript</text>
         <text class="tech-item" x="20" y="130">🎨 CSS3</text>
         <text class="tech-item" x="120" y="130">🌐 HTML5</text>
-      </g>
+      </svg>
 
       <!-- Backend Box -->
-      <g transform="translate(250, 70)">
+      <svg x="250" y="70" overflow="visible">
         <rect width="230" height="150" rx="10" fill="url(#glass)" stroke="#7ee787" stroke-width="1" stroke-opacity="0.5"/>
         <circle class="glow-dot" cx="20" cy="25" r="4" fill="#7ee787" filter="url(#glow)"/>
         <text class="tech-title" x="35" y="30">Backend</text>
@@ -117,10 +117,10 @@
         <text class="tech-item" x="120" y="100">🚂 Express</text>
         <text class="tech-item" x="20" y="130">🦅 Deno</text>
         <text class="tech-item" x="120" y="130">☕ Java</text>
-      </g>
+      </svg>
 
       <!-- DB & DevOps Box -->
-      <g transform="translate(0, 240)">
+      <svg x="0" y="240" overflow="visible">
         <rect width="230" height="150" rx="10" fill="url(#glass)" stroke="#bc8cff" stroke-width="1" stroke-opacity="0.5"/>
         <circle class="glow-dot" cx="20" cy="25" r="4" fill="#bc8cff" filter="url(#glow)"/>
         <text class="tech-title" x="35" y="30">Data &amp; DevOps</text>
@@ -131,10 +131,10 @@
         <text class="tech-item" x="130" y="100">🔴 Redis</text>
         <text class="tech-item" x="20" y="130">☁️ Cloud / AWS</text>
         <text class="tech-item" x="130" y="130">🐙 CI/CD</text>
-      </g>
+      </svg>
 
       <!-- AI/ML Box -->
-      <g transform="translate(250, 240)">
+      <svg x="250" y="240" overflow="visible">
         <rect width="230" height="150" rx="10" fill="url(#glass)" stroke="#ff7b72" stroke-width="1" stroke-opacity="0.5"/>
         <circle class="glow-dot" cx="20" cy="25" r="4" fill="#ff7b72" filter="url(#glow)"/>
         <text class="tech-title" x="35" y="30">AI &amp; ML</text>
@@ -145,9 +145,9 @@
         <text class="tech-item" x="130" y="100">🤗 Hugging Face</text>
         <text class="tech-item" x="20" y="130">🔥 PyTorch</text>
         <text class="tech-item" x="130" y="130">📊 Pandas</text>
-      </g>
+      </svg>
     </g>
-  </g>
+  </svg>
 
   <!-- Floating Particles -->
   <circle cx="600" cy="250" r="2" fill="#58a6ff" opacity="0.6">
