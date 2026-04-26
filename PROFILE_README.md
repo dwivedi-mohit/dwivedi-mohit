@@ -1,22 +1,8 @@
-<!-- ████████████████████████████████████████████████████████ -->
-<!-- ██        MOHIT DWIVEDI — GITHUB PROFILE README       ██ -->
-<!-- ██   Paste this into: dwivedi-mohit/dwivedi-mohit     ██ -->
-<!-- ████████████████████████████████████████████████████████ -->
-
 <div align="center">
-
-<!-- ══════════════════════════════════════════ -->
-<!--           ANIMATED 3D HEADER             -->
-<!-- ══════════════════════════════════════════ -->
-
 <img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=0:0d1117,30:1a1f35,60:0d2137,100:0d1117&text=Mohit%20Dwivedi&fontColor=58a6ff&fontSize=70&fontAlignY=55&desc=Full%20Stack%20Developer%20%7C%20Open%20Source%20Builder%20%7C%20AI%20Explorer&descSize=16&descAlignY=75&descColor=8b949e&animation=twinkling&stroke=58a6ff&strokeWidth=2" width="100%"/>
 
-<!-- ══════════════════════════════════════════ -->
-<!--           TYPING ANIMATION               -->
-<!-- ══════════════════════════════════════════ -->
-
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=58A6FF&background=0D111700&center=true&vCenter=true&width=700&height=55&lines=🚀+Full+Stack+Developer;⚡+Open+Source+Contributor;🤖+AI+%26+ML+Explorer;🌐+Building+the+Future%2C+One+Commit+at+a+Time;💡+Problem+Solver+%7C+Code+Architect" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=58A6FF&background=0D111700&center=true&vCenter=true&width=700&height=55&lines=%F0%9F%9A%80+Full+Stack+Developer;%E2%9A%A1+Open+Source+Contributor;%F0%9F%A4%96+AI+%26+ML+Explorer;%F0%9F%8C%90+Building+the+Future%2C+One+Commit+at+a+Time;%F0%9F%92%A1+Problem+Solver+%7C+Code+Architect" alt="Typing SVG" />
 </a>
 
 <br/>
