@@ -28,9 +28,7 @@
     <style>
       @keyframes float1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
       @keyframes float2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-15px)} }
-      @keyframes float3 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
       @keyframes pulseGlow { 0%,100%{opacity:0.5} 50%{opacity:1} }
-      @keyframes typeLine { 0%{opacity:0} 100%{opacity:1} }
       @keyframes blink { 0%,50%{opacity:1} 51%,100%{opacity:0} }
 
       .card1 { animation: float1 6s ease-in-out infinite; transform-origin: center; }
@@ -50,100 +48,104 @@
   <rect width="1200" height="500" fill="url(#bg)"/>
 
   <!-- Left Side: Terminal Window -->
-  <g class="card1" transform="translate(50, 40)">
-    <!-- Glass Panel -->
-    <rect width="520" height="420" rx="15" fill="url(#glass)" stroke="url(#glassBorder)" stroke-width="1.5"/>
-    
-    <!-- Terminal Header -->
-    <path d="M0,15 Q0,0 15,0 L505,0 Q520,0 520,15 L520,40 L0,40 Z" fill="#010409" opacity="0.6"/>
-    <circle cx="20" cy="20" r="6" fill="#ff5f56"/>
-    <circle cx="40" cy="20" r="6" fill="#ffbd2e"/>
-    <circle cx="60" cy="20" r="6" fill="#27c93f"/>
-    <text x="260" y="25" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="13" fill="#8b949e">mohit@nexus: ~/about-me</text>
-
-    <!-- Terminal Content -->
-    <g transform="translate(25, 70)">
-      <text class="terminal-text" y="0"><tspan class="comment"># Initialize profile protocol</tspan></text>
+  <g transform="translate(50, 40)">
+    <g class="card1">
+      <!-- Glass Panel -->
+      <rect width="520" height="420" rx="15" fill="url(#glass)" stroke="url(#glassBorder)" stroke-width="1.5"/>
       
-      <text class="terminal-text" y="30"><tspan class="keyword">const</tspan> <tspan class="variable">developer</tspan> = {</text>
-      <text class="terminal-text" y="55">  name: <tspan class="string">"Mohit Dwivedi"</tspan>,</text>
-      <text class="terminal-text" y="80">  location: <tspan class="string">"India 🇮🇳"</tspan>,</text>
-      <text class="terminal-text" y="105">  role: <tspan class="string">"Full Stack Engineer"</tspan>,</text>
-      <text class="terminal-text" y="130">  status: <tspan class="string">"Always shipping 🚀"</tspan>,</text>
-      <text class="terminal-text" y="155">  fuel: <tspan class="string">"∞ cups/day ☕"</tspan></text>
-      <text class="terminal-text" y="180">};</text>
+      <!-- Terminal Header -->
+      <path d="M0,15 Q0,0 15,0 L505,0 Q520,0 520,15 L520,40 L0,40 Z" fill="#010409" opacity="0.6"/>
+      <circle cx="20" cy="20" r="6" fill="#ff5f56"/>
+      <circle cx="40" cy="20" r="6" fill="#ffbd2e"/>
+      <circle cx="60" cy="20" r="6" fill="#27c93f"/>
+      <text x="260" y="25" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="13" fill="#8b949e">mohit@nexus: ~/about-me</text>
 
-      <text class="terminal-text" y="230"><tspan class="keyword">let</tspan> <tspan class="variable">currentMissions</tspan> = [</text>
-      <text class="terminal-text" y="255">  <tspan class="string">"World Need"</tspan>,</text>
-      <text class="terminal-text" y="280">  <tspan class="string">"AI Nexus"</tspan></text>
-      <text class="terminal-text" y="305">];</text>
+      <!-- Terminal Content -->
+      <g transform="translate(25, 70)">
+        <text class="terminal-text" y="0"><tspan class="comment"># Initialize profile protocol</tspan></text>
+        
+        <text class="terminal-text" y="30"><tspan class="keyword">const</tspan> <tspan class="variable">developer</tspan> = {</text>
+        <text class="terminal-text" y="55">  name: <tspan class="string">"Mohit Dwivedi"</tspan>,</text>
+        <text class="terminal-text" y="80">  location: <tspan class="string">"India 🇮🇳"</tspan>,</text>
+        <text class="terminal-text" y="105">  role: <tspan class="string">"Full Stack Engineer"</tspan>,</text>
+        <text class="terminal-text" y="130">  status: <tspan class="string">"Always shipping 🚀"</tspan>,</text>
+        <text class="terminal-text" y="155">  fuel: <tspan class="string">"∞ cups/day ☕"</tspan></text>
+        <text class="terminal-text" y="180">};</text>
 
-      <text class="terminal-text" y="340"><tspan class="variable">console</tspan>.<tspan class="keyword">log</tspan>(<tspan class="string">"Automating the un-automatable..."</tspan>);</text>
-      <text class="terminal-text" y="370"><tspan class="keyword">root@nexus</tspan> <tspan class="variable">~ $</tspan> <tspan class="cursor">█</tspan></text>
+        <text class="terminal-text" y="230"><tspan class="keyword">let</tspan> <tspan class="variable">currentMissions</tspan> = [</text>
+        <text class="terminal-text" y="255">  <tspan class="string">"World Need"</tspan>,</text>
+        <text class="terminal-text" y="280">  <tspan class="string">"AI Nexus"</tspan></text>
+        <text class="terminal-text" y="305">];</text>
+
+        <text class="terminal-text" y="340"><tspan class="variable">console</tspan>.<tspan class="keyword">log</tspan>(<tspan class="string">"Automating the un-automatable..."</tspan>);</text>
+        <text class="terminal-text" y="370"><tspan class="keyword">root@nexus</tspan> <tspan class="variable">~ $</tspan> <tspan class="cursor">█</tspan></text>
+      </g>
     </g>
   </g>
 
   <!-- Right Side: Tech Stack Floating Grid -->
-  <g class="card2" transform="translate(630, 40)">
-    
-    <!-- Title -->
-    <text x="250" y="30" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="800" fill="#ffffff" filter="url(#glow)">TECH ARSENAL</text>
-    <line x1="150" y1="45" x2="350" y2="45" stroke="#bc8cff" stroke-width="2" filter="url(#glow)"/>
+  <g transform="translate(630, 40)">
+    <g class="card2">
+      
+      <!-- Title -->
+      <text x="250" y="30" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="28" font-weight="800" fill="#ffffff" filter="url(#glow)">TECH ARSENAL</text>
+      <line x1="150" y1="45" x2="350" y2="45" stroke="#bc8cff" stroke-width="2" filter="url(#glow)"/>
 
-    <!-- Frontend Box -->
-    <g transform="translate(0, 70)">
-      <rect width="230" height="150" rx="10" fill="url(#glass)" stroke="#58a6ff" stroke-width="1" stroke-opacity="0.5"/>
-      <circle class="glow-dot" cx="20" cy="25" r="4" fill="#58a6ff" filter="url(#glow)"/>
-      <text class="tech-title" x="35" y="30">Frontend</text>
-      <line x1="10" y1="45" x2="220" y2="45" stroke="#30363d" stroke-width="1"/>
-      <text class="tech-item" x="20" y="70">⚛️ React</text>
-      <text class="tech-item" x="120" y="70">⬛ Next.js</text>
-      <text class="tech-item" x="20" y="100">📘 TypeScript</text>
-      <text class="tech-item" x="120" y="100">🟨 JavaScript</text>
-      <text class="tech-item" x="20" y="130">🎨 CSS3</text>
-      <text class="tech-item" x="120" y="130">🌐 HTML5</text>
-    </g>
+      <!-- Frontend Box -->
+      <g transform="translate(0, 70)">
+        <rect width="230" height="150" rx="10" fill="url(#glass)" stroke="#58a6ff" stroke-width="1" stroke-opacity="0.5"/>
+        <circle class="glow-dot" cx="20" cy="25" r="4" fill="#58a6ff" filter="url(#glow)"/>
+        <text class="tech-title" x="35" y="30">Frontend</text>
+        <line x1="10" y1="45" x2="220" y2="45" stroke="#30363d" stroke-width="1"/>
+        <text class="tech-item" x="20" y="70">⚛️ React</text>
+        <text class="tech-item" x="120" y="70">⬛ Next.js</text>
+        <text class="tech-item" x="20" y="100">📘 TypeScript</text>
+        <text class="tech-item" x="120" y="100">🟨 JavaScript</text>
+        <text class="tech-item" x="20" y="130">🎨 CSS3</text>
+        <text class="tech-item" x="120" y="130">🌐 HTML5</text>
+      </g>
 
-    <!-- Backend Box -->
-    <g transform="translate(250, 70)">
-      <rect width="230" height="150" rx="10" fill="url(#glass)" stroke="#7ee787" stroke-width="1" stroke-opacity="0.5"/>
-      <circle class="glow-dot" cx="20" cy="25" r="4" fill="#7ee787" filter="url(#glow)"/>
-      <text class="tech-title" x="35" y="30">Backend</text>
-      <line x1="10" y1="45" x2="220" y2="45" stroke="#30363d" stroke-width="1"/>
-      <text class="tech-item" x="20" y="70">🐍 Python</text>
-      <text class="tech-item" x="120" y="70">🟩 Node.js</text>
-      <text class="tech-item" x="20" y="100">⚡ FastAPI</text>
-      <text class="tech-item" x="120" y="100">🚂 Express</text>
-      <text class="tech-item" x="20" y="130">🦅 Deno</text>
-      <text class="tech-item" x="120" y="130">☕ Java</text>
-    </g>
+      <!-- Backend Box -->
+      <g transform="translate(250, 70)">
+        <rect width="230" height="150" rx="10" fill="url(#glass)" stroke="#7ee787" stroke-width="1" stroke-opacity="0.5"/>
+        <circle class="glow-dot" cx="20" cy="25" r="4" fill="#7ee787" filter="url(#glow)"/>
+        <text class="tech-title" x="35" y="30">Backend</text>
+        <line x1="10" y1="45" x2="220" y2="45" stroke="#30363d" stroke-width="1"/>
+        <text class="tech-item" x="20" y="70">🐍 Python</text>
+        <text class="tech-item" x="120" y="70">🟩 Node.js</text>
+        <text class="tech-item" x="20" y="100">⚡ FastAPI</text>
+        <text class="tech-item" x="120" y="100">🚂 Express</text>
+        <text class="tech-item" x="20" y="130">🦅 Deno</text>
+        <text class="tech-item" x="120" y="130">☕ Java</text>
+      </g>
 
-    <!-- DB & DevOps Box -->
-    <g transform="translate(0, 240)">
-      <rect width="230" height="150" rx="10" fill="url(#glass)" stroke="#bc8cff" stroke-width="1" stroke-opacity="0.5"/>
-      <circle class="glow-dot" cx="20" cy="25" r="4" fill="#bc8cff" filter="url(#glow)"/>
-      <text class="tech-title" x="35" y="30">Data &amp; DevOps</text>
-      <line x1="10" y1="45" x2="220" y2="45" stroke="#30363d" stroke-width="1"/>
-      <text class="tech-item" x="20" y="70">🐘 PostgreSQL</text>
-      <text class="tech-item" x="130" y="70">🍃 MongoDB</text>
-      <text class="tech-item" x="20" y="100">🐳 Docker</text>
-      <text class="tech-item" x="130" y="100">🔴 Redis</text>
-      <text class="tech-item" x="20" y="130">☁️ Cloud / AWS</text>
-      <text class="tech-item" x="130" y="130">🐙 CI/CD</text>
-    </g>
+      <!-- DB & DevOps Box -->
+      <g transform="translate(0, 240)">
+        <rect width="230" height="150" rx="10" fill="url(#glass)" stroke="#bc8cff" stroke-width="1" stroke-opacity="0.5"/>
+        <circle class="glow-dot" cx="20" cy="25" r="4" fill="#bc8cff" filter="url(#glow)"/>
+        <text class="tech-title" x="35" y="30">Data &amp; DevOps</text>
+        <line x1="10" y1="45" x2="220" y2="45" stroke="#30363d" stroke-width="1"/>
+        <text class="tech-item" x="20" y="70">🐘 PostgreSQL</text>
+        <text class="tech-item" x="130" y="70">🍃 MongoDB</text>
+        <text class="tech-item" x="20" y="100">🐳 Docker</text>
+        <text class="tech-item" x="130" y="100">🔴 Redis</text>
+        <text class="tech-item" x="20" y="130">☁️ Cloud / AWS</text>
+        <text class="tech-item" x="130" y="130">🐙 CI/CD</text>
+      </g>
 
-    <!-- AI/ML Box -->
-    <g transform="translate(250, 240)">
-      <rect width="230" height="150" rx="10" fill="url(#glass)" stroke="#ff7b72" stroke-width="1" stroke-opacity="0.5"/>
-      <circle class="glow-dot" cx="20" cy="25" r="4" fill="#ff7b72" filter="url(#glow)"/>
-      <text class="tech-title" x="35" y="30">AI &amp; ML</text>
-      <line x1="10" y1="45" x2="220" y2="45" stroke="#30363d" stroke-width="1"/>
-      <text class="tech-item" x="20" y="70">🤖 LLMs</text>
-      <text class="tech-item" x="130" y="70">🧠 TensorFlow</text>
-      <text class="tech-item" x="20" y="100">✨ OpenAI</text>
-      <text class="tech-item" x="130" y="100">🤗 Hugging Face</text>
-      <text class="tech-item" x="20" y="130">🔥 PyTorch</text>
-      <text class="tech-item" x="130" y="130">📊 Pandas</text>
+      <!-- AI/ML Box -->
+      <g transform="translate(250, 240)">
+        <rect width="230" height="150" rx="10" fill="url(#glass)" stroke="#ff7b72" stroke-width="1" stroke-opacity="0.5"/>
+        <circle class="glow-dot" cx="20" cy="25" r="4" fill="#ff7b72" filter="url(#glow)"/>
+        <text class="tech-title" x="35" y="30">AI &amp; ML</text>
+        <line x1="10" y1="45" x2="220" y2="45" stroke="#30363d" stroke-width="1"/>
+        <text class="tech-item" x="20" y="70">🤖 LLMs</text>
+        <text class="tech-item" x="130" y="70">🧠 TensorFlow</text>
+        <text class="tech-item" x="20" y="100">✨ OpenAI</text>
+        <text class="tech-item" x="130" y="100">🤗 Hugging Face</text>
+        <text class="tech-item" x="20" y="130">🔥 PyTorch</text>
+        <text class="tech-item" x="130" y="130">📊 Pandas</text>
+      </g>
     </g>
   </g>
 
