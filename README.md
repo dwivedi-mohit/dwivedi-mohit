@@ -98,9 +98,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com?user=dwivedi-mohit&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ff7b72&currStreakLabel=bc8cff&sideLabels=8b949e&dates=8b949e&stroke=30363d" alt="GitHub Streak"/>
 </a>
 
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=dwivedi-mohit&theme=algolia&no-bg=true&no-frame=true&row=1&column=7&margin-w=5" alt="Trophies" width="100%"/>
 
 </div>
 
