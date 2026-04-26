@@ -1,0 +1,129 @@
+<svg width="1200" height="350" viewBox="0 0 1200 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+
+    <!-- Glassmorphism Panel Gradients -->
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.06"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.01"/>
+    </linearGradient>
+
+    <linearGradient id="glowBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#79c0ff;stop-opacity:0.2"/>
+    </linearGradient>
+    
+    <linearGradient id="glowPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#bc8cff;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#d2a8ff;stop-opacity:0.2"/>
+    </linearGradient>
+
+    <linearGradient id="glowRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff7b72;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#ffa657;stop-opacity:0.2"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <style>
+      @keyframes floatCard1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+      @keyframes floatCard2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+      @keyframes floatCard3 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+      @keyframes progressAnim { 0%{width:0} 100%{opacity:1} }
+      @keyframes pulseDot { 0%,100%{opacity:0.4; r:3} 50%{opacity:1; r:5} }
+
+      .card1 { animation: floatCard1 5s ease-in-out infinite; transform-origin: center; }
+      .card2 { animation: floatCard2 6s ease-in-out infinite; transform-origin: center; }
+      .card3 { animation: floatCard3 7s ease-in-out infinite; transform-origin: center; }
+      
+      .title { font-family: 'Segoe UI', sans-serif; font-size: 26px; font-weight: 800; fill: #ffffff; }
+      .proj-title { font-family: 'Segoe UI', sans-serif; font-size: 22px; font-weight: 700; fill: #ffffff; }
+      .proj-desc { font-family: 'Segoe UI', sans-serif; font-size: 14px; fill: #8b949e; }
+      .proj-tag { font-family: 'Segoe UI', sans-serif; font-size: 12px; font-weight: 600; fill: #ffffff; }
+      .progress-bg { fill: #30363d; rx: 4; }
+      .pdot { animation: pulseDot 2s infinite; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="350" fill="url(#bg)"/>
+
+  <!-- Section Title -->
+  <text x="600" y="45" text-anchor="middle" class="title" filter="url(#glow)">ACTIVE NEXUS NODES</text>
+  <line x1="500" y1="60" x2="700" y2="60" stroke="#79c0ff" stroke-width="2" filter="url(#glow)"/>
+
+  <!-- Project 1: World Need -->
+  <g class="card1" transform="translate(60, 110)">
+    <rect width="320" height="180" rx="12" fill="url(#glass)" stroke="#58a6ff" stroke-width="1.5" stroke-opacity="0.3"/>
+    <!-- Top Glow Line -->
+    <path d="M12,0 L308,0" stroke="url(#glowBlue)" stroke-width="4" filter="url(#glow)"/>
+    
+    <circle class="pdot" cx="25" cy="30" r="4" fill="#58a6ff" filter="url(#glow)"/>
+    <text x="45" y="36" class="proj-title">World Need</text>
+    
+    <!-- Description with manual text wrapping via tspan -->
+    <text class="proj-desc" x="25" y="70">A social platform connecting</text>
+    <text class="proj-desc" x="25" y="90">people with real-world</text>
+    <text class="proj-desc" x="25" y="110">problems to developers.</text>
+
+    <!-- Progress Bar (75%) -->
+    <text x="25" y="145" class="proj-tag" fill="#58a6ff">Progress</text>
+    <rect x="85" y="137" width="200" height="8" class="progress-bg"/>
+    <rect x="85" y="137" width="150" height="8" fill="#58a6ff" rx="4">
+      <animate attributeName="width" from="0" to="150" dur="2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    </rect>
+    <text x="295" y="145" class="proj-tag">75%</text>
+  </g>
+
+  <!-- Project 2: GitHub Auto-Pilot -->
+  <g class="card2" transform="translate(440, 110)">
+    <rect width="320" height="180" rx="12" fill="url(#glass)" stroke="#bc8cff" stroke-width="1.5" stroke-opacity="0.3"/>
+    <!-- Top Glow Line -->
+    <path d="M12,0 L308,0" stroke="url(#glowPurple)" stroke-width="4" filter="url(#glow)"/>
+    
+    <circle class="pdot" cx="25" cy="30" r="4" fill="#bc8cff" filter="url(#glow)"/>
+    <text x="45" y="36" class="proj-title">GitHub Auto-Pilot</text>
+    
+    <text class="proj-desc" x="25" y="70">High-performance automation</text>
+    <text class="proj-desc" x="25" y="90">tool with intelligent commit</text>
+    <text class="proj-desc" x="25" y="110">generation &amp; graph management.</text>
+
+    <!-- Progress Bar (90%) -->
+    <text x="25" y="145" class="proj-tag" fill="#bc8cff">Progress</text>
+    <rect x="85" y="137" width="200" height="8" class="progress-bg"/>
+    <rect x="85" y="137" width="180" height="8" fill="#bc8cff" rx="4">
+      <animate attributeName="width" from="0" to="180" dur="2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    </rect>
+    <text x="295" y="145" class="proj-tag">90%</text>
+  </g>
+
+  <!-- Project 3: AI Nexus -->
+  <g class="card3" transform="translate(820, 110)">
+    <rect width="320" height="180" rx="12" fill="url(#glass)" stroke="#ff7b72" stroke-width="1.5" stroke-opacity="0.3"/>
+    <!-- Top Glow Line -->
+    <path d="M12,0 L308,0" stroke="url(#glowRed)" stroke-width="4" filter="url(#glow)"/>
+    
+    <circle class="pdot" cx="25" cy="30" r="4" fill="#ff7b72" filter="url(#glow)"/>
+    <text x="45" y="36" class="proj-title">AI Nexus</text>
+    
+    <text class="proj-desc" x="25" y="70">Intelligent platform integrating</text>
+    <text class="proj-desc" x="25" y="90">multiple AI models for</text>
+    <text class="proj-desc" x="25" y="110">automated workflows.</text>
+
+    <!-- Progress Bar (40%) -->
+    <text x="25" y="145" class="proj-tag" fill="#ff7b72">Progress</text>
+    <rect x="85" y="137" width="200" height="8" class="progress-bg"/>
+    <rect x="85" y="137" width="80" height="8" fill="#ff7b72" rx="4">
+      <animate attributeName="width" from="0" to="80" dur="2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    </rect>
+    <text x="295" y="145" class="proj-tag">40%</text>
+  </g>
+
+</svg>

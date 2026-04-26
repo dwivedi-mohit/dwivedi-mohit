@@ -24,159 +24,25 @@
 
 <br/>
 
----
-
 <!-- ══════════════════════════════════════════ -->
-<!--          ABOUT ME — PREMIUM CARDS        -->
+<!--          ABOUT ME & TECH ARSENAL         -->
 <!-- ══════════════════════════════════════════ -->
 
 <div align="center">
-
-### 👨‍💻 &nbsp; About Me
-
-</div>
-
-<table align="center" border="0" width="90%">
-<tr>
-<td valign="top" width="50%">
-
-### 🧠 Who Am I?
-
-```yaml
-name    : Mohit Dwivedi
-located : India 🇮🇳
-role    : Full Stack Developer
-status  : Always shipping 🚀
-coffee  : ∞ cups/day ☕
-```
-
-🔭 Currently building **World Need** & **AI Nexus**<br>
-🌱 Deep-diving into **LLMs** and **distributed systems**<br>
-⚡ Fun fact: I automate things that shouldn't be automated<br>
-💬 Ask me about **React**, **Python**, **DevOps**, **AI**
-
-</td>
-<td valign="top" width="50%">
-
-### 🎯 What I Do
-
-| Area | Focus |
-|------|-------|
-| 🌐 **Frontend** | React, Next.js, TypeScript |
-| ⚙️ **Backend** | Python, Node.js, FastAPI |
-| 🗄️ **Databases** | PostgreSQL, MongoDB, Redis |
-| 🐳 **DevOps** | Docker, GitHub Actions, CI/CD |
-| 🤖 **AI / ML** | LLMs, TensorFlow, OpenAI |
-| ☁️ **Cloud** | GCP, Firebase, Vercel |
-
-</td>
-</tr>
-</table>
-
-<br/>
-
----
-
-<!-- ══════════════════════════════════════════ -->
-<!--         TECH STACK BADGES                -->
-<!-- ══════════════════════════════════════════ -->
-
-<div align="center">
-
-### ⚡ &nbsp; Tech Arsenal
-
-<br/>
-
-**🖥️ Frontend**<br>
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-<br/>
-
-**⚙️ Backend**<br>
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-
-<br/>
-
-**🗄️ Databases & Cloud**<br>
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-<br/>
-
-**🤖 AI / ML**<br>
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-
+  <img src="asset/about.svg" width="100%" alt="About Me and Tech Stack"/>
 </div>
 
 <br/>
-
----
 
 <!-- ══════════════════════════════════════════ -->
 <!--       CURRENTLY BUILDING SECTION         -->
 <!-- ══════════════════════════════════════════ -->
 
 <div align="center">
-
-### 🔭 &nbsp; Currently Building
-
+  <img src="asset/projects.svg" width="100%" alt="Active Nexus Nodes Projects"/>
 </div>
 
-<table align="center" width="95%">
-<tr>
-<td align="center" width="33%" valign="top">
-
-<img src="https://img.shields.io/badge/🌐-PROJECT-58a6ff?style=for-the-badge&labelColor=0d1117" />
-
-**World Need**
-
-A social platform connecting people with real-world problems to developers who can solve them.
-
-![Progress](https://img.shields.io/badge/Progress-75%25-7ee787?style=flat-square&labelColor=0d1117)
-
-</td>
-<td align="center" width="33%" valign="top">
-
-<img src="https://img.shields.io/badge/🤖-PROJECT-bc8cff?style=for-the-badge&labelColor=0d1117" />
-
-**GitHub Auto-Pilot**
-
-High-performance automation tool with intelligent commit generation and graph management.
-
-![Progress](https://img.shields.io/badge/Progress-90%25-58a6ff?style=flat-square&labelColor=0d1117)
-
-</td>
-<td align="center" width="33%" valign="top">
-
-<img src="https://img.shields.io/badge/⚡-PROJECT-ff7b72?style=for-the-badge&labelColor=0d1117" />
-
-**AI Nexus**
-
-Intelligent platform integrating multiple AI models for automated workflows and task execution.
-
-![Progress](https://img.shields.io/badge/Progress-40%25-bc8cff?style=flat-square&labelColor=0d1117)
-
-</td>
-</tr>
-</table>
-
 <br/>
-
----
 
 <!-- ══════════════════════════════════════════ -->
 <!--         SKILL BARS                       -->
