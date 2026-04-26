@@ -19,47 +19,108 @@
 <!-- ══════════════════════════════════════════ -->
 
 <div align="center">
-  <br/>
   <img src="asset/snake.svg" width="100%" alt="Tech Journey Timeline"/>
-  <br/><br/>
 </div>
+
+<br/>
 
 ---
 
 <!-- ══════════════════════════════════════════ -->
-<!--          ABOUT ME & TECH STACK           -->
+<!--          ABOUT ME — PREMIUM CARDS        -->
 <!-- ══════════════════════════════════════════ -->
 
-<table align="center" width="100%" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <h3>🧠 <code>System Specs</code></h3>
-      <div align="left" style="display: inline-block;">
-        <code>Status:   Always shipping 🚀</code><br>
-        <code>Location: India 🇮🇳</code><br>
-        <code>Role:     Full Stack Engineer</code><br>
-        <code>Fuel:     ∞ cups/day ☕</code><br><br>
-        🔭 Building <b>World Need</b> & <b>AI Nexus</b><br>
-        🌱 Deep-diving into <b>LLMs</b> & <b>Distributed Systems</b><br>
-        ⚡ I automate the un-automatable<br>
-        💬 Ask me about <b>React</b>, <b>Python</b>, <b>DevOps</b>, <b>AI</b>
-      </div>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <h3>🎯 <code>Tech Arsenal</code></h3>
-      <div align="left" style="display: inline-block;">
-        <b>Frontend:</b><br>
-        <img src="https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/><br>
-        <b>Backend:</b><br>
-        <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/-Node.js-43853D?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/-FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white"/><br>
-        <b>Data & Ops:</b><br>
-        <img src="https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/-Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/><br>
-        <b>AI & ML:</b><br>
-        <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
-      </div>
-    </td>
-  </tr>
+<div align="center">
+
+### 👨‍💻 &nbsp; About Me
+
+</div>
+
+<table align="center" border="0" width="90%">
+<tr>
+<td valign="top" width="50%">
+
+### 🧠 Who Am I?
+
+```yaml
+name    : Mohit Dwivedi
+located : India 🇮🇳
+role    : Full Stack Developer
+status  : Always shipping 🚀
+coffee  : ∞ cups/day ☕
+```
+
+🔭 Currently building **World Need** & **AI Nexus**<br>
+🌱 Deep-diving into **LLMs** and **distributed systems**<br>
+⚡ Fun fact: I automate things that shouldn't be automated<br>
+💬 Ask me about **React**, **Python**, **DevOps**, **AI**
+
+</td>
+<td valign="top" width="50%">
+
+### 🎯 What I Do
+
+| Area | Focus |
+|------|-------|
+| 🌐 **Frontend** | React, Next.js, TypeScript |
+| ⚙️ **Backend** | Python, Node.js, FastAPI |
+| 🗄️ **Databases** | PostgreSQL, MongoDB, Redis |
+| 🐳 **DevOps** | Docker, GitHub Actions, CI/CD |
+| 🤖 **AI / ML** | LLMs, TensorFlow, OpenAI |
+| ☁️ **Cloud** | GCP, Firebase, Vercel |
+
+</td>
+</tr>
 </table>
+
+<br/>
+
+---
+
+<!-- ══════════════════════════════════════════ -->
+<!--         TECH STACK BADGES                -->
+<!-- ══════════════════════════════════════════ -->
+
+<div align="center">
+
+### ⚡ &nbsp; Tech Arsenal
+
+<br/>
+
+**🖥️ Frontend**<br>
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+<br/>
+
+**⚙️ Backend**<br>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+
+<br/>
+
+**🗄️ Databases & Cloud**<br>
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+<br/>
+
+**🤖 AI / ML**<br>
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+</div>
 
 <br/>
 
@@ -71,53 +132,88 @@
 
 <div align="center">
 
-### 🔭 &nbsp; Active Nexus Nodes
+### 🔭 &nbsp; Currently Building
 
-<br/>
+</div>
 
-<table align="center" width="95%" style="border-collapse: collapse; border: none;">
+<table align="center" width="95%">
 <tr>
 <td align="center" width="33%" valign="top">
-<img src="https://img.shields.io/badge/🌐-PROJECT-58a6ff?style=for-the-badge&labelColor=0d1117" /><br>
-<b>World Need</b><br>
-<sub>A social platform connecting people with real-world problems to developers who can solve them.</sub><br>
-<img src="https://img.shields.io/badge/Progress-75%25-7ee787?style=flat-square&labelColor=0d1117"/>
-</td>
 
-<td align="center" width="33%" valign="top">
-<img src="https://img.shields.io/badge/🤖-PROJECT-bc8cff?style=for-the-badge&labelColor=0d1117" /><br>
-<b>GitHub Auto-Pilot</b><br>
-<sub>High-performance automation tool with intelligent commit generation and graph management.</sub><br>
-<img src="https://img.shields.io/badge/Progress-90%25-58a6ff?style=flat-square&labelColor=0d1117"/>
-</td>
+<img src="https://img.shields.io/badge/🌐-PROJECT-58a6ff?style=for-the-badge&labelColor=0d1117" />
 
+**World Need**
+
+A social platform connecting people with real-world problems to developers who can solve them.
+
+![Progress](https://img.shields.io/badge/Progress-75%25-7ee787?style=flat-square&labelColor=0d1117)
+
+</td>
 <td align="center" width="33%" valign="top">
-<img src="https://img.shields.io/badge/⚡-PROJECT-ff7b72?style=for-the-badge&labelColor=0d1117" /><br>
-<b>AI Nexus</b><br>
-<sub>Intelligent platform integrating multiple AI models for automated workflows and task execution.</sub><br>
-<img src="https://img.shields.io/badge/Progress-40%25-bc8cff?style=flat-square&labelColor=0d1117"/>
+
+<img src="https://img.shields.io/badge/🤖-PROJECT-bc8cff?style=for-the-badge&labelColor=0d1117" />
+
+**GitHub Auto-Pilot**
+
+High-performance automation tool with intelligent commit generation and graph management.
+
+![Progress](https://img.shields.io/badge/Progress-90%25-58a6ff?style=flat-square&labelColor=0d1117)
+
+</td>
+<td align="center" width="33%" valign="top">
+
+<img src="https://img.shields.io/badge/⚡-PROJECT-ff7b72?style=for-the-badge&labelColor=0d1117" />
+
+**AI Nexus**
+
+Intelligent platform integrating multiple AI models for automated workflows and task execution.
+
+![Progress](https://img.shields.io/badge/Progress-40%25-bc8cff?style=flat-square&labelColor=0d1117)
+
 </td>
 </tr>
 </table>
-
-</div>
 
 <br/>
 
 ---
 
 <!-- ══════════════════════════════════════════ -->
-<!--           GITHUB STATS & GRAPH           -->
+<!--         SKILL BARS                       -->
 <!-- ══════════════════════════════════════════ -->
 
 <div align="center">
 
-### 📊 &nbsp; Contribution Universe
+### 🎯 &nbsp; Proficiency Radar
+
+</div>
+
+```text
+  Full Stack Dev   ████████████████████  100% ⚡
+  Python           ███████████████████░   95% 🐍
+  React / Next.js  ██████████████████░░   90% ⚛️
+  System Design    █████████████████░░░   88% 🏗️
+  DevOps / CI/CD   ████████████████░░░░   82% 🐳
+  AI / ML          ███████████████░░░░░   78% 🤖
+  Cloud (GCP/AWS)  ██████████████░░░░░░   72% ☁️
+```
+
+<br/>
+
+---
+
+<!-- ══════════════════════════════════════════ -->
+<!--           GITHUB STATS GRID              -->
+<!-- ══════════════════════════════════════════ -->
+
+<div align="center">
+
+### 📊 &nbsp; Battle Statistics
 
 <br/>
 
 <picture>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dwivedi-mohit&bg_color=0d1117&color=58a6ff&line=bc8cff&point=7ee787&area=true&hide_border=true&custom_title=Mohit%27s%20Galaxy" width="100%" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dwivedi-mohit&bg_color=0d1117&color=58a6ff&line=bc8cff&point=7ee787&area=true&hide_border=true&custom_title=Mohit%27s%20Contribution%20Galaxy" width="100%" alt="Activity Graph"/>
 </picture>
 
 <br/><br/>
@@ -147,12 +243,33 @@
 ---
 
 <!-- ══════════════════════════════════════════ -->
-<!--          CONNECT WITH ME & FOOTER        -->
+<!--         RANDOM DEV QUOTE                 -->
 <!-- ══════════════════════════════════════════ -->
 
 <div align="center">
 
-### 🌍 &nbsp; Connect in the Metaverse
+### 💬 &nbsp; Daily Wisdom
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" width="90%" alt="Dev Quote"/>
+</picture>
+
+</div>
+
+<br/>
+
+---
+
+<!-- ══════════════════════════════════════════ -->
+<!--          CONNECT WITH ME                 -->
+<!-- ══════════════════════════════════════════ -->
+
+<div align="center">
+
+### 🌍 &nbsp; Find Me In The Metaverse
 
 <br/>
 
@@ -174,11 +291,11 @@
 
 <br/><br/><br/>
 
-<img src="asset/footer.svg" width="100%" alt="Animated Footer Wave"/>
+<img src="asset/footer.svg" width="100%" alt="Footer Wave"/>
 
 </div>
 
-<br/>
+---
 
 <div align="center">
 
